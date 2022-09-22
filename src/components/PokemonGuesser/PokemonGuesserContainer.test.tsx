@@ -128,5 +128,6 @@ describe('PokemonGuesserContainer', () => {
     fireEvent.click(retryButton);
     expect(screen.getByTestId('pokemon-image')).toBeInTheDocument();
     expect(screen.getByTestId('pokemon-form')).toBeInTheDocument();
+
   });
 });
