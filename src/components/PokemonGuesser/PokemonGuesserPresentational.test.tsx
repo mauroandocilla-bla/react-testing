@@ -77,5 +77,6 @@ describe('PokemonGuesserPresentational', () => {
     const keepButton = screen.getByTestId('pokemon-keep-button');
     fireEvent.click(keepButton);
     expect(mockProps.onRetry).toBeCalled();
+
   });
 });
