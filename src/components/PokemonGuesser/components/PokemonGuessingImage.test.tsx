@@ -38,5 +38,6 @@ describe('PokemonGuessingImage', () => {
     const image = screen.getByTestId('pokemon-image') as HTMLImageElement;
     expect(image).toHaveStyle('background: white');
   });
+
 });
 

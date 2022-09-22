@@ -1,7 +1,6 @@
 import React from 'react';
 import {PokemonProvider} from "./context/PokemonContext";
 import {PokemonGuesser} from "./components/PokemonGuesser";
-import './style.css';
 
 function App() {
   return (
